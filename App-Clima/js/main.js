@@ -42,11 +42,11 @@ const updateImages = (data) => {
   const temp = toCelsius(data.main.temp);
   let src;
   if (temp >= 26) {
-    src = "../images/warm.png";
+    src = "./images/warm.png";
   } else if (temp < 26 && temp >= 15) {
-    src = "../images/normal.png";
+    src = "./images/normal.png";
   } else if (temp < 14) {
-    src = "../images/cold.png";
+    src = "./images/cold.png";
   }
 
   $tempImg.src = src;

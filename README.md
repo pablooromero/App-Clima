@@ -2,7 +2,6 @@
 Aplicación para buscar el clima de la ciudad que quieras
 
 Realizada con HTML, CSS y Vanilla JavaScript.
-#
 
 SCREENSHOTS
 
